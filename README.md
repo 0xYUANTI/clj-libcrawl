@@ -7,7 +7,9 @@ Feedback welcome.
 
 ## Usage
 Recommend some people to follow based on whom I'm currently following:
+
     $ lein run cannedprimates
+
 Have a look at the code, it's less than 300 lines.
 
 ## License
