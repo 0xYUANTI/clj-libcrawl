@@ -5,4 +5,4 @@
                  :url  "http://opensource.org/licenses/BSD-3-Clause"}
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [clj-http            "0.5.8"]]
-  :main         'clj-libcrawl.core)
+  :main         clj-libcrawl.core)
