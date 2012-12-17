@@ -6,6 +6,7 @@
 (ns clj-libcrawl.http
   (:require [clj-libcrawl.lib :as lib])
   (:require [clj-http.client  :as client])
+  (:refer-clojure :exclude (get))
   (:use     clojure.test))
 
 (declare token update! update-window! timestamp)
