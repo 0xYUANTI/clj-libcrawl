@@ -8,7 +8,7 @@
 ;;;_* Code =============================================================
 (defn -main
   "Suggest friends for SCREEN-NAME."
-  [[screen-name]]
+  [screen-name]
   (try
     (clj-libcrawl.search/suggest
      (clj-libcrawl.twitter/screen-name->node screen-name))
