@@ -12,6 +12,8 @@
   (try
     (clj-libcrawl.search/suggest
      (clj-libcrawl.twitter/screen-name->node screen-name))
+    (future-cancel http/bgtask)
+    (System/exit 0)
     (catch Exception e (clojure.stacktrace/print-stack-trace e))))
 
 ;;;_* Emacs ============================================================
